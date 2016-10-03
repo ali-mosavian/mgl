@@ -1,0 +1,50 @@
+[ActiveConfig]
+x-snd\x-snd.vpj=Release
+x-snd\snd.vpj=,Release
+ugl.vpj=Release
+[Global]
+CurrentProject=ugl.vpj
+[ProjectDates]
+ugl.vpj=20040625012258609
+[TreeExpansion]
+ugl.vpj 1 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+[State]
+SCREEN: 1024 768 0 75 802 434 0 0 M 0 0 0 0 750 672
+CWD: ..\src
+FILEHIST: 9
+music\inc\modload.h
+music\inc\modtbl.h
+music\inc\modplay.h
+music\inc\modmem.h
+music\modcmn.c
+music\modctrl.c
+music\modload.c
+music\modmem.c
+mods\mdvbe.asm
+[TreeExpansion2]
+- ugl.vpj
+  + 2dfx
+  + cfmt
+    - b15
+    + b16
+    + b32
+    - b8
+  + dct
+  + dos
+  + ems
+  + inc
+  + ..\inc
+  + misc
+  + mods
+  + music
+    + inc
+  + tools
+    + ttf2uvf
+    + wtltest
+  + ugl
+  + uglu
+  + xsnd
+    + inc
+    + snddrv
+      - inc
+scroll:0
