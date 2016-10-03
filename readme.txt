@@ -1,18 +1,18 @@
 ------------------------------------------
-    About UGL
+    About µGL
 ------------------------------------------
     
-    UGL is a game development library for qb. It's similar to 
+    µGL is a game development library for qb. It's similar to 
     allegro and is what we think a gamedev library should be like. 
     It's not yet complete, but almost.
     
-    UGL is completly free and we do not take any responsibility for
+    µGL is completly free and we do not take any responsibility for
     any damage it might do. Nor do we take any responsibility for 
     how people use it.
     
     To contact the authors:
     v1ctor:     av1ctor@yahoo.com.br
-    Blitz :     blitz.dotnet@stockholm.bonet.se
+    Blitz :     https://github.com/stdexcept
     
 
 ------------------------------------------
@@ -20,7 +20,7 @@
 ------------------------------------------
     
     It's very simple.
-        - Start lib\uglbuild.exe
+        - Start lib\UGLbuild.exe
         
         - Select the compiler you want to build for
           options -> build target
@@ -150,9 +150,9 @@
     
     Because the difference between C and BASIC strings, if you are
     going to make a C lib to be used by QB/PDS/VBD programs, and if
-    calls to UGL routines that have strings as arguments are done, the
+    calls to µGL routines that have strings as arguments are done, the
     __BASLIB__ constant must be defined before including any header
-    that is part of UGL, or calling those routines will not work as
+    that is part of µGL, or calling those routines will not work as
     the arguments will be wrong (probably causing a crash). There's
     an example at the exs\c\c_bas dir.
 
@@ -196,10 +196,10 @@
 ------------------------------------------
 
     At the release of 0.22, arpeggio, vibrato and tremolo has not 
-    been implemented yet. Also, the music module uses the UGL timer.
+    been implemented yet. Also, the music module uses the µGL timer.
     So once you started the music module you won't be able to use 
     qb's timer, sound or play commands. But who needs them anyway?
-    You will of course be able to use UGLs timer module as usual.
+    You will of course be able to use µGLs timer module as usual.
     
     In NT/2K/XP the music might run slightly uneven. But you won't 
     notice it unless you know the song really well and listen to it
@@ -212,7 +212,7 @@
     Final words
 ------------------------------------------              
 
-    UGL does not use any hacks and it follows the VESA standard
+    µGL does not use any hacks and it follows the VESA standard
     100%. So if there are any incompatibility problems, it's not
     our fault. 
     
