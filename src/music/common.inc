@@ -1,5 +1,5 @@
-                .model	medium, pascal
+                .model  medium, pascal
                 .386
-                option	proc:private
+                option  proc:private
                 
                 include equ.inc
