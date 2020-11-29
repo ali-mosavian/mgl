@@ -11,8 +11,8 @@
     how people use it.
     
     To contact the authors:
-    v1ctor:     av1ctor@yahoo.com.br
-    Blitz :     https://github.com/stdexcept
+    v1ctor:     https://github.com/av1ctor
+    Blitz :     https://github.com/ali-mosavian
     
 
 ------------------------------------------
